@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500');
+
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.intro{
+    height:100%;
+    width:100%;
+    margin:auto;
+    background:url(img/menubg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display:table; 
+    top:0;
+}
+
+
+.intro .inner { /*says inner class nested inside of intro class*/
+    display:table-cell; /* because we are inside of a table in the intro class*/
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 25%;
+}
+
+/* .content {
+max-width:500px;
+margin:auto;
+
+} TO MAKE CONTENT LATER*/
+
+#contain{
+    background-color: white;
+}
+
+.content p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content h1{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size:550%;
+    text-shadow: 3px 3px white; /*3 pixels horizontal, 3 pixels vertical*/
+}
+
+.content h2{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size:200%;
+    text-shadow: 3px 3px white; /*3 pixels horizontal, 3 pixels vertical*/
+    text-decoration: underline;
+}
+
+.btn {
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    border: 4px red;
+}
+
+
+P {
+    font-family: sans-serif;
+    font-size: 120%;
+    line-height: 190%;
+    text-align: center;
+    margin:3%;
+
+}
+
+a{
+    color:black;
+
+}
+
+a:hover{
+    color:black;
+    
+}
+
+@media(max-width: 768px) {
+    .content h1{
+        font-size: 300%;
+        padding:7px 15px;
+    }
+
+    .btn{
+    font-size: 110%;
+    padding: 7px 15px; 
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
