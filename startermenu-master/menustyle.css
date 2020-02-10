@@ -36,6 +36,9 @@ margin:auto;
 
 .content p{
     font-family: 'Open Sans', sans-serif;
+    color:aquamarine;
+    font-size: 200%;
+    text-shadow: 3px 3px black;
 }
 
 .content h1{
@@ -90,8 +93,9 @@ a:hover{
     padding: 7px 15px; 
     }
     p {
-        font-size: 100%;
+        font-size: 150%;
         line-height: 160%;
+        color:red;
     }
 }
 
