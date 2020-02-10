@@ -6,7 +6,7 @@ class Data {
       this.sWidth = sWidth;
       this.sHeight = sHeight;
       this.data = new Image();
-      this.data.src = "/images/data.svg"
+      this.data.src = "./images/data.svg"
       this.height = height; //height of the image
       this.width = width; //width of the image
       this.x=dataX;

@@ -6,7 +6,7 @@ class Obstacle {
       this.sWidth = sWidth;
       this.sHeight = sHeight;
       this.gov = new Image();
-      this.gov.src = "/images/governmentfine.svg"
+      this.gov.src = "./images/governmentfine.svg"
       this.height = height; //height of the image
       this.width = width; //width of the image
       this.x=govX;

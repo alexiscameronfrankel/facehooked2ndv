@@ -7,7 +7,7 @@ class Zuckerberg {
       this.sWidth = sWidth;
       this.sHeight = sHeight;
       this.zuckie = new Image();
-      this.zuckie.src = "/images/zuckerergsprite.png"
+      this.zuckie.src = "./images/zuckerergsprite.png"
       this.height = height; 
       this.width = width;
       this.x=zuckX;
