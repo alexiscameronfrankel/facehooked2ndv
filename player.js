@@ -63,9 +63,9 @@ respondCollision(item){
         console.log('lost game');
         let lostBox = confirm(`GAME OVER! YOUR SCORE IS ${this.score}`);
         if (lostBox == true) {
-          window.location.href = "menu.html";
+          window.location.href = "index.html";
         } else {
-          window.location.href = "menu.html";
+          window.location.href = "index.html";
         }
         
        
